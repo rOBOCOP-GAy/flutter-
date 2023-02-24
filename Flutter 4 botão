@@ -1,0 +1,36 @@
+import 'package:flutter/material.dart';
+
+void main(){
+
+     runApp(MaterialApp(
+      
+      title: " Estrutura Principal Flutter", 
+       home: Container(
+        color: Colors.amberAccent,
+        child: Column (
+            children: <Widget>[
+
+            FlatButton(
+            onPressed: (){
+           print( 'Botão Pressionado!');
+
+            },
+
+
+
+  child: Text( "Clique aqui", 
+             
+style: TextStyle (
+
+        fontSize: 20,
+color: Colors.black,
+decoration: TextDecoration.none
+)
+)
+)
+              ]
+
+
+)
+)
+));
