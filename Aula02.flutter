@@ -2,42 +2,29 @@ import 'package:flutter/material.dart';
 
 void main(){
 
-  runApp(MaterialApp(
+runApp( MaterialApp(
+//debugShowCheckModeBanner: false;
+title: 'Aula 02 Flutter 2DS', 
+
+home: Container(
+color: Colors.white,
+//padding: EdgeInsets.fromLTRB( 0, 0, 0, 0)
+//margin: EdgeInsets.all (100)
+child: Column( children: <Widget> [
+
+        Padding( 
+        padding: EdgeInsets.fromLTRB( 0, 0, 0, 0),
+        child: Text('Sexodelicinha'),),
         
-        //debugShowCheckModeBanner: false,
+        Padding( 
+        padding: EdgeInsets.fromLTRB( 10, 10, 10, 10),
+        child: Text('Sexo de ladin com o hygor'),),
 
-title: 'Aula 02 Flutter 2DS',
-  home : Container( 
-  color: Colors.red, 
- // padding: EdgeInsets.fromLTRB( 100, 100, 100, 100),
- // margin: EdgeInsets.all(50),
-    child: Column( children: <Widget>  [
+        Padding( 
+        padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+        child: Text('sexo com o arthur e bom '),),
+  ])
 
-Text("sexo1"),
-
-Padding( 
-padding: EdgeInsets.fromLTRB(100, 200, 100, 300),
-child: Text("sexo2"),
-
-
-
-
-)
-
-]),
-
-
-
-
-        ),        
-        
-          
-         
+),
 ));
-
-
-  
-
-
-
 }
